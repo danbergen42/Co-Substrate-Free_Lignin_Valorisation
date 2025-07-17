@@ -11,6 +11,12 @@ Key modifications:
 - Curated reaction reversibility and removed redundant lipoamide-dependent complexes.
 - Pruned unused metabolites and set the biomass objective.
 
+Optional modifications:
+- Simulations were performed to predict metabolic capabilities for co-substrate free lignin valorisation in P. putida EM42
+- The model iJN1463 is based on KT2440 - metabolically KT2440 and EM42 are identical based on their metabolically relevant gene sets
+- To fully capture the actual genome of EM42, the genes, PP_1339 (encoding for 'ALAALAr') and PP_4545 (encoding for 'KAS15' and 'OGMEACPS'), can be considered for deletion in the iJN1445 model for future simulations of P. putida EM42
+- However, those genes have isoforms (PP_4346 and PP_4379, respectively) in the KT2440 and the EM42 genomes - hence, deletion of PP_1339 and PP_4545 won't change the reaction set in the iJN1445 model
+
 Output:
 - Curated model iJN1445 saved as SBML (.xml).
 
